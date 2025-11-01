@@ -1,0 +1,54 @@
+.list-container{
+    margin: 20px;
+    /* border: 1px solid green; */
+    background-color: #ececec;
+    /* box-shadow: 1px 1px #2850a7; */
+    border-radius: 10px;
+    list-style: none;
+
+}
+               
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    justify-content: space-around;
+    
+}
+.logo{
+    height: 20px;
+    padding: 8px;
+}
+.timer{
+    width: 5%;
+    margin: 10px;
+}
+.title{
+    padding: 8px;
+}
+.app-details{
+    display: flex;
+   
+   align-items: center;
+   
+   justify-content: flex-start;
+   /* border: 1px solid black; */
+  
+  width: 75%;
+}
+.domain{
+    padding: 8px;
+}
+.time{
+    width: 100px;
+    
+    /* border: 1px solid red; */
+}
+.delete-container{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 5%;
+    
+}

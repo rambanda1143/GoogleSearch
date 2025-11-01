@@ -1,6 +1,6 @@
 import {Component} from 'react'
-import './App.css'
-import History from './Components/History/indexChild'
+import './index.css'
+import History from './indexChild'
 // These are the list used in the application. You can move them to any component needed.
 const initialHistoryList = [
   {
@@ -78,7 +78,7 @@ const initialHistoryList = [
 ]
 
 // Replace your code here
-class App extends Component {
+class HistoryPage extends Component {
   state={searchInput:"",usersDetailsList:initialHistoryList}
   
 
@@ -223,4 +223,4 @@ class App extends Component {
   // }
 }
 
-export default App
+export default HistoryPage
